@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;500;700&display=swap");
+
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.recipe {
+  display: grid;
+  gap: 1.3rem;
+  padding: 2rem;
+}
+
+.title {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 500;
+  font-size: 2.3rem;
+  color: var(--Dark-Charcoal);
+  
+}
+
+.description {
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+
+}
+
+.recipe ul,
+.recipe ol {
+  display: grid;
+  gap: 0.75rem;
+  margin-left: 1.75rem;
+  padding: 1rem 0.5rem;
+}
+
+li {
+  padding: 0 0 0 0.85rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+}
+
+.recipe hr {
+  background-color: var(--Wenge-Brown);
+  opacity: 0.7;
+}
+
+.prep-time {
+  background-color: var(--Rose-White);
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  color: var(--Wenge-Brown);
+}
+
+.prep-heading {
+  font-size: 1.25rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: var(--Dark-Raspberry);
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  color: var(--Nutmeg);
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+li::marker {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--Nutmeg);
+}
+
+.nutrition {
+  display: grid;
+  gap: 1rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+}
+
+.nutrition-description {
+  line-height: 22px;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--Light-Grey);
+}
+
+tr:last-child {
+  border: none;
+}
+
+.bold {
+  font-weight: 700;
+  color: var(--Dark-Raspberry);
+}
+
+@media screen and (min-width: 560px) {
+  body {
+    background-color: var(--Eggshell);
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    color: var(--Wenge-Brown);
+  }
+
+  .container {
+    background-color: var(--White);
+    width: 740px;
+    margin: 8rem 0;
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+  }
+
+  .recipe {
+    padding: 2rem 0.5rem 0;
+    gap: 1rem;
+  }
+  img {
+    border-radius: 1.5rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    line-height: 25px;
+  }
+
+  .prep-time {
+    padding: 1.5rem 1.5rem 2rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  ol {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  ol li {
+    font-size: 1rem;
+  }
+
+  td {
+    text-align: start;
+    padding-left: 1rem;
+  }
+}
