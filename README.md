@@ -20,10 +20,16 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 Desktop
-![](./screenshot.jpg)
+![](./screenshots/Desktop.png)
+
+
+![](./screenshots/destop%201.png)
+![](./screenshots/desktop%202.png)
+![](./screenshots/Desktop%203.png)
+
 
 Mobile
-![](./screenshot.jpg)
+![](./screenshots/mobile.png)
 
 
 ### Links
