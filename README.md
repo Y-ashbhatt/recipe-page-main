@@ -39,7 +39,7 @@ Mobile
 ### Links
 
 - Solution URL: [(https://github.com/Y-ashbhatt/recipe-page-main)]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [(https://y-ashbhatt.github.io/recipe-page-main)]
 
 ## My process
 
