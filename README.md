@@ -54,6 +54,6 @@ Mobile
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Y-ashbhatt](https://www.frontendmentor.io/profile/Y-ashbhatt))
+- Twitter - [@yash_bhatt01](https://x.com/yash_bhatt01)
 
