@@ -20,6 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 Desktop
+
+
 ![](./screenshots/Desktop.png)
 
 
@@ -29,12 +31,14 @@ Desktop
 
 
 Mobile
+
+
 ![](./screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [(https://github.com/Y-ashbhatt/recipe-page-main)]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
